@@ -1,4 +1,4 @@
-public class BodyMassIndex {
+public class Main {
     public static void main(String[] args) {
         double growth = calcGrowth(1.5, 2.2);
         int weight = calcWeight(45, 150);
