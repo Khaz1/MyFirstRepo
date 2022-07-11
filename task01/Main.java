@@ -1,14 +1,14 @@
 package task01;
-
+/**
+ * Задача по расчету индекса массы тела
+ **/
 public class Main {
-    /**
-     * Задача по расчету индекса массы тела
-     **/
+
     public static void main(String[] args) {
         double growth = calcGrowth(1.5, 2.2);
         double weight = calcWeight(45, 150);
-        double total = calcBodyIndex(growth, weight);
-        System.out.println(total);
+        double bodyIndex = calcBodyIndex(growth, weight);
+        System.out.println(bodyIndex);
     }
 
     static double calcGrowth(double from, double to) {
