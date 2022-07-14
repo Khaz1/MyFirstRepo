@@ -10,7 +10,6 @@ public class Main {
         double bodyIndex = calcBodyIndex(growth, weight);
         System.out.println(bodyIndex);
     }
-
     static double calcGrowth(double from, double to) {
         return (from + Math.random() * (to - from));
     }
